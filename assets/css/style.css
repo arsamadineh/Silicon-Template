@@ -1,0 +1,214 @@
+body {
+  font-family: 'IRANYekanWebFn';
+}
+
+.brand-logo {
+  width: 47px !important;
+}
+
+.navbar-brand {
+  gap: 10px;
+}
+
+.nav-items {
+  padding: 0;
+}
+
+.brand-name {
+  font-family: 'IRANYekanWebFn';
+}
+
+.landings-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-xs {
+  --bs-icon-size: 1rem;
+  width: calc(var(--bs-icon-size) * 1.5);
+  height: calc(var(--bs-icon-size) * 1.5);
+}
+
+.bs-icon-sm {
+  --bs-icon-size: 1rem;
+}
+
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+
+.bs-icon-lg {
+  --bs-icon-size: 2rem;
+}
+
+.bs-icon-xl {
+  --bs-icon-size: 2.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-primary-light {
+  color: var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), .2);
+}
+
+.bs-icon.bs-icon-semi-white {
+  color: var(--bs-primary);
+  background: rgba(255, 255, 255, .5);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+}
+
+.bs-icon.bs-icon-circle {
+  border-radius: 50%;
+}
+
+.dropdown-menu {
+  text-align: start;
+}
+
+.phone-2 {
+  width: 500px;
+  left: 20px;
+  height: auto;
+  z-index: 0;
+}
+
+.showcase-banner {
+  background: radial-gradient(116.18% 118% at 50% 100%, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 41.83%, rgba(241, 244, 253, 0.07) 82.52%);
+}
+
+.phone-1 {
+  position: relative;
+  z-index: 5;
+}
+
+.dark-mode-img {
+  display: none;
+}
+
+.light-mode-img, dark-mode-img {
+  width: 139px;
+}
+
+.btn-icon.bg-white.me-3 {
+}
+
+.btn.btn-dark.btn-lg {
+  border-radius: 12px;
+  margin: 0 10px;
+  background-color: #0b0f19;
+}
+
+.fs-lg {
+}
+
+.phone {
+  height: 941px;
+}
+
+.btn-buy {
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #6366f1;
+  --bs-btn-border-color: #3763f4;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #2f54cf;
+  --bs-btn-hover-border-color: #2c4fc3;
+  --bs-btn-focus-shadow-rgb: 85, 122, 246;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #6366f1;
+  --bs-btn-active-border-color: #294ab7;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #3763f4;
+  --bs-btn-disabled-border-color: #3763f4;
+}
+
+.active {
+  color: #6366f1 !important;
+}
+
+.company-box {
+  width: 181px;
+  height: 90px;
+  border: 2px rgba(0,0,0,0.06) solid;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+div {
+}
+
+.company-container {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.lst-none {
+  list-style-type: none;
+}
+
+a {
+  width: auto !important;
+}
+
+.brand-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.75rem !important;
+  height: 2.75rem !important;
+  border-radius: 12px;
+  margin: 0 8px;
+  background-color: #EFF2FC;
+}
+
+@media (min-width: 300px) and (max-width:768px) {
+  ul {
+    flex-wrap: wrap;
+  }
+}
+
+.ww {
+  width: auto !important;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .company-box {
+    position: absolute;
+  }
+}
+

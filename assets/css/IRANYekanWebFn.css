@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'IRANYekanWebFn';
+	src: url(../../assets/fonts/IRANYekanWebFn-c2b53b00a0feee2451c2bc0eab354a33.woff2?h=9427d7c6fa08bf9fd05f2615d5182268) format('woff2'),
+	url(../../assets/fonts/IRANYekanWebFn-392ffc9650075d86fe9751393267cb35.woff?h=9427d7c6fa08bf9fd05f2615d5182268) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
