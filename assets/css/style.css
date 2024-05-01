@@ -122,7 +122,8 @@ body {
 }
 
 .phone {
-  height: 941px;
+  width: 80%;
+  height: auto;
 }
 
 .btn-buy {
@@ -150,10 +151,11 @@ body {
 }
 
 .company-box {
-  width: 181px;
-  height: 90px;
+  transition: 200ms ease-in-out;
+  width: 270px;
+  height: 110px;
   border: 2px rgba(0,0,0,0.06) solid;
-  border-radius: 15px;
+  border-radius: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -198,7 +200,7 @@ a {
 
 @media (min-width: 300px) and (max-width:768px) {
   ul {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
 
@@ -210,5 +212,60 @@ a {
   .company-box {
     position: absolute;
   }
+}
+
+.navbar-nav {
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .navbar-nav {
+    padding: 0 !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1920px) {
+  .ratio-div {
+    height: 613px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  div {
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1920px) {
+  .download-div {
+  }
+}
+
+.ratio-div {
+}
+
+.phone-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: var(--bs-emphasis-color);
+}
+
+.company-box:hover {
+  z-index: 99;
+  transform: translateY(-5px);
+  cursor: pointer;
+  transition: transform .2s ease-in-out, border-color .2s ease-in-out, background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  box-shadow: 1px 5px 10px hsl(240 3.8% 46.1% / 12%);
+}
+
+.bg-secondary {
+  --si-bg-opacity: 1;
+  background-color: #f3f6ff !important;
+}
+
+h1 {
+  color: #0b0f19 !important;
 }
 
