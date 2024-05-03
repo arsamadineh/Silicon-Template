@@ -230,7 +230,8 @@ a {
 }
 
 @media (min-width: 300px) and (max-width: 768px) {
-  div {
+  .transaction-div {
+    width: 100px !important;
   }
 }
 
@@ -267,5 +268,111 @@ h1 {
 
 h1 {
   color: #0b0f19 !important;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .img-transaction {
+    width: 370px;
+    height: 350px;
+    margin-top: 30px;
+    transform: translateX(38px) !important;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .img-transaction.img-transaction-2 {
+    transform: translate3d(-5px, -30px, 0px) !important;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .div-transaction {
+  }
+}
+
+@media (min-width: 300px) and (max-width:768px) {
+  .rellax.img-transaction-b {
+    transform: translate(91px) scale(0.50) !important;
+  }
+}
+
+@media (min-width: 300px) and (max-width:768px) {
+  .img-transaction-b-2 {
+    position: absolute;
+    transform: translate(69px) scale(0.50);
+  }
+}
+
+.rellax.me-md-n3.transaction-div {
+}
+
+.text-primary {
+  --bs-text-opacity: 1;
+  color: #6366f1;
+}
+
+.card-hover.contact-col:hover {
+  z-index: 99;
+  transform: translateY(-5px);
+  cursor: pointer;
+  box-shadow: 1px 5px 10px hsl(240 3.8% 46.1% / 12%);
+}
+
+.card-hover.contact-col {
+  transition: transform .2s ease-in-out, border-color .2s ease-in-out, background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+section {
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .subscripe-btn {
+    border-radius: 50px !important;
+  }
+}
+
+.row {
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .faq-row {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .contact-row {
+    display: flex;
+    flex-flow: row;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .col.contact-div {
+    width: 50%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .subscribe-input {
+    border-radius: 50px !important;
+  }
+}
+
+#next-screen {
+}
+
+.swiper-phone-btn {
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .swiper-phone-btn {
+    z-index: -0 !important;
+  }
 }
 
